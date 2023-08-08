@@ -108,6 +108,10 @@
         margin: 6.6% auto 10% 1%;
     }
 
+    .u-section-2 .u-text-3 {
+        display: none;
+    }
+
     .u-section-2 .u-layout-row {
         display: block;
     }
@@ -115,6 +119,11 @@
     .u-section-2 .u-layout-row>.u-size-30 {
         flex: 0 0 50%;
         max-width: 100%;
+    }
+
+    .u-section-2 .u-layout-wrap-1 {
+        margin-top: 0%;
+        margin-bottom: -2px;
     }
 
     .u-section-2 .u-layout-cell-2 {
@@ -143,9 +152,7 @@
         padding: 0;
     }
 
-    .u-section-3 .logoCircular {
-        left: 66%;
-    }
+
 
     .u-section-3 .u-layout-row {
         flex-direction: column-reverse;
@@ -160,6 +167,41 @@
         max-width: 100%;
 
     }
+
+    .u-section-3 .u-tere {
+        margin: 10.3rem auto 0 10.2%;
+    }
+
+    .u-section-3 .u-text-1 {
+        margin: 18% auto 0% 10%;
+    }
+
+    .u-section-3 .u-text-2 {
+        margin: 4% 23% auto 10%;
+
+    }
+
+
+    .u-section-3 .logoCircular {
+        left: 70%;
+        top: 58%;
+    }
+
+    .u-section-3 .atrativos {
+        margin: 9% auto -9% 37%;
+    }
+
+    .u-section-3 .atrativos-2 {
+        font-size: 1.42vh;
+        padding: 0.5vh;
+        margin: 4% auto 0px 34%;
+        text-align: left;
+        letter-spacing: 0.2vh;
+        line-height: 3vh;
+    }
+
+
+
 
     .u-section-4 .u-layout-row {
         display: block;
@@ -184,12 +226,15 @@
     .u-section-4 .u-image-1 {
         min-height: 70%;
         background-image: url(images/bruno.png);
-        background-position: 50% 50%;
-        margin: -20vh auto auto auto;
+        background-position: -2% 50%;
+        margin: -19vh auto auto auto;
     }
 
     .u-section-5 {
+        min-height: 18vh;
         margin-top: 60vh;
+        margin-bottom: -6vh;
+        width: 100vw;
     }
 
     .u-section-5 .u-image-1 {
@@ -197,15 +242,15 @@
         min-width: 106px;
         height: 6%;
         padding: 0.1rem;
-        margin: 4vh 1vh -4vh auto;
+        margin: 11vh 1vh -6vh auto;
     }
 
     .u-section-5 .u-social-icons-1 {
-        height: 37%;
-        min-height: 1px;
-        width: 11%;
-        min-width: 170px;
-        margin: -0.9% 3vw 0vw 1%;
+        height: 19%;
+        min-height: 8px;
+        width: 49%;
+        min-width: 146px;
+        margin: 0.1% 3vw 0vw 3%;
         /* border: solid; */
     }
 
@@ -213,7 +258,7 @@
         font-size: 2.3vh;
         line-height: 1.2vh;
         width: 43%;
-        margin: -5% auto 2vh auto;
+        margin: -9% 23vh 4vh auto;
         padding: 1vh;
         text-align: center;
         /* border: solid; */
